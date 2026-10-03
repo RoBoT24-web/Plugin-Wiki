@@ -38,13 +38,14 @@
 |---|---|---|
 | `/i <id-or-name> [amount]` (`/give`) | `ccrp.i` (+ `ccrp.i.<n>`) | Gives item by ID/name. |
 | `/v <id-or-name>` (`/vehicle`) | `ccrp.v` | Spawns vehicle by ID/name. |
+| `/wv <id-or-name>` | `ccrp.wv` | Spawns a Wv vehicle by ID/name. |
 
 ## Blacklist Management
 
 | Command | Permission | Description |
 |---|---|---|
-| `/blacklist add <give\|pickup\|both\|vehicle> <id> <bypass-permission>` | `ccrp.blacklist.manage` | Adds blacklist entry. |
-| `/blacklist remove <give\|pickup\|both\|vehicle> <id>` | `ccrp.blacklist.manage` | Removes blacklist entry. |
+| `/blacklist add <give\|pickup\|both\|vehicle\|wv> <id> <bypass-permission>` | `ccrp.blacklist.manage` | Adds blacklist entry. |
+| `/blacklist remove <give\|pickup\|both\|vehicle\|wv> <id>` | `ccrp.blacklist.manage` | Removes blacklist entry. |
 
 ## Wrecking Ball
 

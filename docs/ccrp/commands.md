@@ -23,7 +23,7 @@
 | `/playtime [name]` | `ccrp.playtime` | Shows playtime. |
 | `/teleport <player-or-location>` (`/tp`) | `ccrp.teleport` | Teleport to player/location. |
 | `/teleport <x> <y> <z>` | `ccrp.teleport` | Teleport to coordinates. |
-| `/wv <id-or-name>` | `ccrp.wv` | Spawns a Wv vehicle by ID/name. |
+| `/wv` | `ccrp.wreck` | Destroy the single vehicle you are looking at. |
 
 ## Staff Tools (Build / Camera)
 
@@ -44,8 +44,8 @@
 
 | Command | Permission | Description |
 |---|---|---|
-| `/blacklist add <give\|pickup\|both\|vehicle\|wv> <id> <bypass-permission>` | `ccrp.blacklist.manage` | Adds blacklist entry. |
-| `/blacklist remove <give\|pickup\|both\|vehicle\|wv> <id>` | `ccrp.blacklist.manage` | Removes blacklist entry. |
+| `/blacklist add <give\|pickup\|both\|vehicle> <id> <bypass-permission>` | `ccrp.blacklist.manage` | Adds blacklist entry. |
+| `/blacklist remove <give\|pickup\|both\|vehicle> <id>` | `ccrp.blacklist.manage` | Removes blacklist entry. |
 
 ## Wrecking Ball
 

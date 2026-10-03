@@ -1,0 +1,63 @@
+site_name: RoBoT24 Plugin Wiki
+site_description: Central wiki documentation hub for the RoBoT24 plugin repos
+site_url: https://robot24-web.github.io/Plugin-Wiki/
+repo_url: https://github.com/RoBoT24-web/Plugin-Wiki
+repo_name: RoBoT24-web/Plugin-Wiki
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - CCRP Plugin:
+      - Overview: ccrp/index.md
+      - Commands & Permissions: ccrp/commands.md
+      - Configuration: ccrp/configuration.md
+  - RFGarage:
+      - Overview: rfgarage/index.md
+      - Commands: rfgarage/commands.md
+      - Configuration: rfgarage/configuration.md
+  - Vehicle Build Restrictor:
+      - Overview: vehicle-build-restrictor/index.md
+      - Commands: vehicle-build-restrictor/commands.md
+      - Configuration: vehicle-build-restrictor/configuration.md

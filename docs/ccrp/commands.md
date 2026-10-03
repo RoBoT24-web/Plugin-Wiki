@@ -23,6 +23,7 @@
 | `/playtime [name]` | `ccrp.playtime` | Shows playtime. |
 | `/teleport <player-or-location>` (`/tp`) | `ccrp.teleport` | Teleport to player/location. |
 | `/teleport <x> <y> <z>` | `ccrp.teleport` | Teleport to coordinates. |
+| `/wv <id-or-name>` | `ccrp.wv` | Spawns a Wv vehicle by ID/name. |
 
 ## Staff Tools (Build / Camera)
 
@@ -38,7 +39,6 @@
 |---|---|---|
 | `/i <id-or-name> [amount]` (`/give`) | `ccrp.i` (+ `ccrp.i.<n>`) | Gives item by ID/name. |
 | `/v <id-or-name>` (`/vehicle`) | `ccrp.v` | Spawns vehicle by ID/name. |
-| `/wv <id-or-name>` | `ccrp.wv` | Spawns a Wv vehicle by ID/name. |
 
 ## Blacklist Management
 
